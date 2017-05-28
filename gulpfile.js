@@ -111,6 +111,7 @@ elixir(function(mix) {
         './bower_components/bootstrap-timepicker/js/bootstrap-timepicker.js',
         './bower_components/fullcalendar/dist/fullcalendar.min.js',
         './bower_components/fullcalendar/dist/locale-all.js',
+        './bower_components/fullcalendar-scheduler/dist/scheduler.min.js',
     ], 'public/js/datetime.js');
 
     mix.styles([
@@ -118,7 +119,8 @@ elixir(function(mix) {
         './bower_components/air-datepicker/dist/css/datepicker.min.css',
         //'./bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css',
         './bower_components/bootstrap-timepicker/css/timepicker.less',
-        './bower_components/fullcalendar/dist/fullcalendar.min.css',
+            './bower_components/fullcalendar/dist/fullcalendar.min.css',
+            './bower_components/fullcalendar-scheduler/dist/scheduler.min.css',
     ], 'public/css/datetime.css');
 
     // Tour Helpers
